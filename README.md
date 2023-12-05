@@ -7,4 +7,4 @@ Inspired from:
 
 ## License
 
-Published under the [MIT License](https://github.com/morkid/paginate/blob/master/LICENSE).
+Published under the [MIT License](https://github.com/imampri100/paginate-json/blob/master/LICENSE).
