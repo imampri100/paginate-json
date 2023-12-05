@@ -116,7 +116,7 @@ func TestIsEmptyUUIDPtr(t *testing.T) {
 	res := IsEmptyUUIDPtr(id)
 	utils.AssertEqual(t, true, res)
 
-	id = &uuid.UUID{}
+	id = UUIDPtr(uuid.New())
 	res = IsEmptyUUIDPtr(id)
 	utils.AssertEqual(t, false, res)
 }
@@ -126,7 +126,7 @@ func TestIsEmptyUUID(t *testing.T) {
 	res := IsEmptyUUID(id)
 	utils.AssertEqual(t, true, res)
 
-	id = uuid.UUID{}
+	id = uuid.New()
 	res = IsEmptyUUID(id)
 	utils.AssertEqual(t, false, res)
 }
